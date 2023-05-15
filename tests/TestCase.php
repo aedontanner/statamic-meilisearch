@@ -2,7 +2,7 @@
 
 namespace Elvenstar\StatamicMeiliSearch\Tests;
 
-use Elvenstar\StatamicMeiliSearch\StatamicMeiliSearchServiceProvider;
+use Elvenstar\StatamicMeiliSearch\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            StatamicMeiliSearchServiceProvider::class,
+            ServiceProvider::class,
         ];
     }
 

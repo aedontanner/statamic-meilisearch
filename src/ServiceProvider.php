@@ -6,7 +6,7 @@ use MeiliSearch\Client;
 use Statamic\Facades\Search;
 use Statamic\Providers\AddonServiceProvider;
 
-class StatamicMeiliSearchServiceProvider extends AddonServiceProvider
+class ServiceProvider extends AddonServiceProvider
 {
     public function boot()
     {
